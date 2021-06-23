@@ -25,4 +25,4 @@ Should you have any questions or need to access the raw data files to apply your
 
 #### [ci4r.ua.edu](https://ci4r.ua.edu)
 
-## [DATASET DOWNLOAD](https://drive.google.com/drive/u/1/folders/1AZRB-uCphFzmG-q_0cvmIad1un4HPMxU)
+## [DATASET DOWNLOAD](https://drive.google.com/drive/folders/1AZRB-uCphFzmG-q_0cvmIad1un4HPMxU?usp=sharing)
