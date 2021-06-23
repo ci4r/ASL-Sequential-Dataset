@@ -3,9 +3,7 @@
 
 This dataset contains sequential motions of 3 daily activities (walking, sitting, standing up) and 15 ASL signs. The subjects performed the prompted activities for 24.2 seconds in the line of sight of the radar. Complete description of sequences is listed below:
 
-<p align="center">
-  ![image](https://user-images.githubusercontent.com/66335348/123162029-bc279d00-d435-11eb-914b-06c5b20a4489.png)
-</p>
+![image align="center"](https://user-images.githubusercontent.com/66335348/123162029-bc279d00-d435-11eb-914b-06c5b20a4489.png)
 
 The raw data is acquired using TI’s AWR1642BOOST radar and DCA1000EVM data capture card.
 
