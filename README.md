@@ -19,6 +19,6 @@ Length of .txt files will be the same as number of columns of images or number o
 
 4th character of each file name indicates the SEQUENCE number given in the table above. For example, the file ‘11040000_1618505108_1.png’ belongs to Seq. 4 in the table.
 
-Should you have any questions or need to access the raw data files to apply your own algorithms please contact Sevgi Zubeyde Gurbuz (szgurbuz@ua.edu).
+Should you have any questions or need to access the raw data files to apply your own algorithms please contact Dr. Sevgi Zubeyde Gurbuz (szgurbuz@ua.edu).
 
 ###### [ci4r.ua.edu](https://ci4r.ua.edu)
