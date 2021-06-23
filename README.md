@@ -1,4 +1,4 @@
-# ASL-Sequential-Dataset
+# ASL-Sequential-Dataset (77 GHz FMCW MIMO)
 (Mixed motion of daily activities and ASL signs)
 
 This dataset contains sequential motions of 3 daily activities (walking, sitting, standing up) and 15 ASL signs. The subjects performed the prompted activities for 24.2 seconds in the line of sight of the radar. Complete description of sequences is listed below:
