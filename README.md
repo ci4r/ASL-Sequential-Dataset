@@ -23,6 +23,6 @@ Length of .txt files will be the same as number of columns of images or number o
 
 Should you have any questions or need to access the raw data files to apply your own algorithms please contact Dr. Sevgi Zubeyde Gurbuz (szgurbuz@ua.edu).
 
-## [DATASET DOWNLOAD](https://drive.google.com/drive/u/1/folders/1AZRB-uCphFzmG-q_0cvmIad1un4HPMxU)
+#### [ci4r.ua.edu](https://ci4r.ua.edu)
 
-###### [ci4r.ua.edu](https://ci4r.ua.edu)
+## [DATASET DOWNLOAD](https://drive.google.com/drive/u/1/folders/1AZRB-uCphFzmG-q_0cvmIad1un4HPMxU)
