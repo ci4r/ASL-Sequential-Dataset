@@ -31,7 +31,7 @@ Length of .txt files will be the same as number of columns of images or number o
 
 ### Raw Data and Pre-processing
 
-Raw data of the RF measurements are also available under `Raw data/ASL Sequential Raw Files.zip` (~1.3 TB). Top scripts `data_collect_trigger_v2.m` and `data_collect_trigger_v3_revision.m` can be used to create the different input representations. Each recording consists of 5 repetitions of a sequence and is split into 3 .bin files (1gb, 1gb, 180mb). The aforementioned top scripts first reads these 3 data files and extract the radar data cube (RDC) of each of them. Then concatenate, and split them into 5 sequences. Splitted sequences are then processed individually and different input representations are generated. Note that extraction of envelopes are done explicitly by `Find_envelopes.m` script.
+Raw data of the RF measurements are also available under `Raw data/ASL Sequential Raw Files.zip` (~1.3 TB). Top scripts `data_collect_trigger_v2.m` and `data_collect_trigger_v3_revision.m` can be used to create the different input representations. Each recording consists of 5 repetitions of a sequence and is split into 3 .bin files (1gb, 1gb, 180mb). The aforementioned top scripts first reads these 3 data files and extract the radar data cube (RDC) of each of them. Then concatenate them in slow-time dimension, and split them into 5 sequences. Splitted sequences are then processed individually and different input representations are generated. Note that extraction of envelopes are done explicitly by `Find_envelopes.m` script.
 
 Should you have any questions about the dataset, please contact Dr. Sevgi Zubeyde Gurbuz (szgurbuz@ua.edu).
 
