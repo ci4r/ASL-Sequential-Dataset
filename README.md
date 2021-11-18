@@ -19,6 +19,12 @@ The main folder (ASL Sequential Dataset) contains 2 subfolders for different ASL
 
 0: No motion, 1: walking, 2: sitting, 3: standing up, 4: TIRED, 5: BOOK, 6: SLEEP, 7: EVENING, 8: READY, 9: HOT, 10: HOT, 11: MONTH, 12: COOK, 13: AGAIN, 14: SUMMON, 15: MAYBE, 16: NIGHT, 17: SOMETHING, 18: TEACHER, 19: TEACH.
 
+A sample microDoppler spectrogram belonging to SEQUENCE 5 is shown below:
+
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/66335348/142496455-000a6f49-e945-43f2-848c-c382a125a768.png" />
+</p>
+
 Length of .txt files will be the same as number of columns of images or number of frames of videos, and they will share the same file name except the extension (i.e., replace .png and .avi with .txt).
 
 `envelopes` folder contains the Euclidean distance between upper and lower envelopes of the microDoppler spectrograms as a time-series vector which can be used to detect where the motions start and end (i.e., motion detection). A sample envelope extraction process is as follows:
