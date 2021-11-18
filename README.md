@@ -11,7 +11,7 @@ This dataset contains sequential motions of 3 daily activities (walking, sitting
   <img src="https://user-images.githubusercontent.com/66335348/123162029-bc279d00-d435-11eb-914b-06c5b20a4489.png" />
 </p>
 
-The raw data is acquired using TI’s AWR1642BOOST radar and DCA1000EVM data capture card. A total of 200 hearing participant samples and 94 native participant samples for each sequence are acquired.
+The raw data is acquired using TI’s AWR1642BOOST radar and DCA1000EVM data capture card. A total of 200 hearing participant (Non-ASL user) samples and 94 native (ASL user) participant samples for each sequence are acquired.
 
 ### Directory Structure:
 
