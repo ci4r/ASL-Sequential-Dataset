@@ -43,5 +43,5 @@ Should you have any questions about the dataset, please contact Dr. Sevgi Zubeyd
 
 ## [DATASET DOWNLOAD](https://drive.google.com/drive/folders/1AZRB-uCphFzmG-q_0cvmIad1un4HPMxU?usp=sharing)
 
-Alternate download link:
+Alternative download link:
 ## [DOWNLOAD](https://storage.cloud.google.com/asl_sequential_thms2021_dataset)
