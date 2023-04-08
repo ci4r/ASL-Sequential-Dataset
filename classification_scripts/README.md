@@ -5,3 +5,5 @@ While the MATLAB files under `processing_scripts/` are used for raw data pre-pro
 `classification_scripts/create_dataset*.ipynb` files are used to read the created videos and images and save them as pickle or .hdf5 files.
 
 `classification_scripts/Final baseline 2.ipynb` is the main classification script which implements the STA/LTA motion detector and the JD-MTML model explained in the original paper.
+
+`classification_scripts/Trigger pipeline.ipynb` is the script to evaluate the trigger recognition rate of each sign.
