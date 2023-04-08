@@ -1,18 +1,14 @@
 clear; clc; close all; 
 
-subs = {'15 apr ozgur', '16 apr devon asl2', '19 apr sevgi', '20 apr caroline', '21 apr blake', '21 apr emin', '22 apr ladi', '22 apr sean', '23 apr alperen', ...
-        '23 apr mahbub'};
-for ss = 10:length(subs)
-        
-subject = subs{ss};
+subject = '5 May Sevgi';
 
-data = ['/media/rspl-admin/Seagate Backup Plus Drive/Sequential Fall/' subject '/77ghz/Front/*.bin'];
+data = ['/media/rspl-admin/Seagate Backup Plus Drive/100sign_ASL Fall 2020/' subject '/77ghz/Front/*.bin'];
 
 % data = ['/media/rspl-admin/FantomHD/' subject '/*.bin'];
 
-RDout = ['/mnt/HDD01/rspl-admin/DATASETS/Fall Sequential/Outputs/' subject '/rangeDoppler/'];
-mDout = ['/mnt/HDD01/rspl-admin/DATASETS/Fall Sequential/Outputs/' subject '/microDoppler/'];
-DOAout = ['/mnt/HDD01/rspl-admin/DATASETS/Fall Sequential/Outputs/' subject '/rangeDOA/'];
+RDout = ['/mnt/HDD01/rspl-admin/DATASETS/110 Words ASL Fall 2020/Output/' subject '/rangeDoppler/'];
+mDout = ['/mnt/HDD01/rspl-admin/DATASETS/110 Words ASL Fall 2020/Output/' subject '/microDoppler/'];
+DOAout = ['/mnt/HDD01/rspl-admin/DATASETS/110 Words ASL Fall 2020/Output/' subject '/rangeDOA/'];
 
 if ~exist(RDout, 'dir')
        mkdir(RDout)
@@ -33,19 +29,12 @@ for z = 1:length(filenames2)
         temp{1,z} = filenames2{z}(1:end-10);
 end
 uniqs = unique(temp);
-
-if ss == 10
-        jj = 12;
-else
-        jj=12;
-end
-
-for j = jj:length(uniqs) % 12
+for j = 1:length(uniqs)
         match = strfind(filenames2,uniqs{j}); % find matches
         idx = find(~cellfun(@isempty,match)); % find non-empty indices
-%         if j >=12
-%                 idx = max(idx);
-%         end
+        if j >=12
+                idx = max(idx);
+        end
         RDC = [];
         % concat RDCs with same names
         for r = 1:length(idx)
@@ -64,11 +53,10 @@ for j = jj:length(uniqs) % 12
                 mD_Out = [mDout uniqs{j} '_' num2str(r) '.png'];
                 RD_Out = [RDout uniqs{j} '_' num2str(r) '.avi'];
                 DOA_Out = [DOAout uniqs{j} '_' num2str(r) '.avi'];
-                [cfar_bins] = RDC_to_rangeDopp(subRDC, RD_Out);
-                RDC_to_microDopp(subRDC, mD_Out, cfar_bins)
-                RDC_to_rangeDOA_AWR1642(subRDC, DOA_Out)
+%                 [cfar_bins] = RDC_to_rangeDopp(subRDC, RD_Out);
+                RDC_to_microDopp_110words(subRDC, mD_Out)
+%                 RDC_to_rangeDOA_AWR1642(subRDC, DOA_Out)
                 toc
         end
 
-end
 end
