@@ -41,7 +41,9 @@ Should you have any questions about the dataset, please contact Dr. Sevgi Zubeyd
 
 #### [ci4r.ua.edu](https://ci4r.ua.edu)
 
-## [DATASET DOWNLOAD](https://drive.google.com/drive/folders/1AZRB-uCphFzmG-q_0cvmIad1un4HPMxU?usp=sharing)
+## [DATASET DOWNLOAD](https://bama365-my.sharepoint.com/:f:/g/personal/ekurtoglu_crimson_ua_edu/EjrqvtrhIupDrPnefNwOLyIBJn80gv_6UlFAgWjku2srOw?e=Fkx05A)
+
+<!--- (https://drive.google.com/drive/folders/1AZRB-uCphFzmG-q_0cvmIad1un4HPMxU?usp=sharing) --->
 
 Alternative download link:
 ## [DOWNLOAD](https://storage.cloud.google.com/asl_sequential_thms2021_dataset)
