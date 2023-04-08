@@ -3,7 +3,7 @@
 
 ## Cite as
 
-*Kurtoglu, Emre, Ali C. Gurbuz, Evie A. Malaia, Darrin Griffin, Chris Crawford, and Sevgi Z. Gurbuz. "ASL Trigger Recognition in Mixed Activity/Signing Sequences for RF Sensor-Based User Interfaces." arXiv preprint arXiv:2111.05480 (2021).*
+*E. Kurtoğlu, A. C. Gurbuz, E. A. Malaia, D. Griffin, C. Crawford and S. Z. Gurbuz, "ASL Trigger Recognition in Mixed Activity/Signing Sequences for RF Sensor-Based User Interfaces," in IEEE Transactions on Human-Machine Systems, vol. 52, no. 4, pp. 699-712, Aug. 2022, doi: 10.1109/THMS.2021.3131675..*
 
 This dataset contains sequential motions of 3 daily activities (walking, sitting, standing up) and 15 ASL signs. The subjects performed the prompted activities for 24.2 seconds in the line of sight of the radar. Complete description of sequences is listed below:
 
