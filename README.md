@@ -37,6 +37,10 @@ A sample microDoppler spectrogram belonging to SEQUENCE 5 is shown below:
 
 Raw data of the RF measurements are also available under `Raw data/ASL Sequential Raw Files.zip` (~1.3 TB). Top scripts `data_collect_trigger_v2.m` and `data_collect_trigger_v3_revision.m` can be used to create the different input representations. Each recording consists of 5 repetitions of a sequence and is split into 3 .bin files (1gb, 1gb, 180mb). The aforementioned top scripts first reads these 3 data files and extract the radar data cube (RDC) of each of them. Then concatenate them in slow-time dimension, and split them into 5 sequences. Splitted sequences are then processed individually and different input representations are generated. Note that extraction of envelopes are done explicitly by `Find_envelopes.m` script.
 
+
+Dataset download link:
+## [DATASET DOWNLOAD](https://storage.cloud.google.com/asl_sequential_thms2021_dataset)
+
 Should you have any questions about the dataset, please contact Dr. Sevgi Zubeyde Gurbuz (szgurbuz@ua.edu).
 
 #### [ci4r.ua.edu](https://ci4r.ua.edu)
@@ -47,5 +51,3 @@ Should you have any questions about the dataset, please contact Dr. Sevgi Zubeyd
 
 <!--- (https://drive.google.com/drive/folders/1AZRB-uCphFzmG-q_0cvmIad1un4HPMxU?usp=sharing) --->
 
-Alternative download link:
-## [DATASET DOWNLOAD](https://storage.cloud.google.com/asl_sequential_thms2021_dataset)
